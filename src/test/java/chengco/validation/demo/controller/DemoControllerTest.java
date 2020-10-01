@@ -35,7 +35,7 @@ public class DemoControllerTest extends TestCase {
     }
 
     @Test
-    public void test_validation() throws Exception {
+    public void test_validation_in_controller() throws Exception {
         DemoResource demoResource = DemoResource.builder()
                 .user(UserResource.builder()
                         .age(500)
