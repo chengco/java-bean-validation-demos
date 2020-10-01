@@ -1,0 +1,7 @@
+out/
+*.iml
+.gradle
+build/
+.idea/
+!gradle/wrapper/gradle-wrapper.jar
+/src/main/generated
